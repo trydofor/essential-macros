@@ -5,12 +5,12 @@ name := "scala-macros"
 version := "1.0.0"
 
 val commonSettings = Seq(
-  scalaVersion := "2.11.0",
+  scalaVersion := "2.11.6",
   scalacOptions ++= Seq("-deprecation", "-feature"),
   libraryDependencies ++= Seq(
     "org.scala-lang" % "scala-reflect" % scalaVersion.value,
-    "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.1",
-    "org.specs2" %% "specs2" % "2.3.12" % "test"
+    "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.4",
+    "org.specs2" %% "specs2-core" % "3.6.1" % "test" exclude("org.scala-lang", "scala-library")
   )
 )
 

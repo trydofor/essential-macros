@@ -60,3 +60,21 @@ Each example is split into two projects, `app` and `lib`. `lib` defines the macr
 
  - **csv** - Sketch of a type-class-based codebase for CSV serialization. An implicit macro
    is used to support automatic materialization of type class instances for case classes.
+
+Learn by Idea IC
+-------------
+
+**IDE Environment**
+
+ - [scala 2.11.6](http://www.scala-lang.org/download/all.html)
+ - [sbt 0.13.8](http://www.scala-sbt.org/download.html)
+ - [java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+ - [Idea Community Edition 14.1](https://www.jetbrains.com/idea/download/)
+ - [specs2 3.6.1](https://etorreborre.github.io/specs2/website/SPECS2-3.6.1/quickstart.html)
+
+
+**Import Project**
+
+ - `File` - `New` - `Project from existing sources`
+
+ - `Import project from external model` - `SBT`
